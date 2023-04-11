@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="app">
+        <div class="container">
+            <input type="text" id="city" placeholder="Enter city name">
+            <button onclick="getWeather()">Get weather</button>
+            <div id="weatherData"></div>
+        </div>
+        <div class="legend">
+            <h3>Weather Legend</h3>
+            <div class="legend-item">
+                <img src="https://openweathermap.org/img/wn/01d.png" alt="Clear sky">
+                <p>Clear sky</p>
+            </div>
+            <div class="legend-item">
+                <img src="https://openweathermap.org/img/wn/09d.png" alt="Shower rain">
+                <p>Shower rain</p>
+            </div>
+            <!-- Add more legend items as needed -->
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
