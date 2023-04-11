@@ -5,12 +5,13 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background-color: #e0f7fa;
+    background-color: #ede0d4;
 }
 
 .container {
+    border-style:solid;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #b08968;
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -48,6 +49,7 @@ button:hover {
 h2 {
     margin: 0;
     font-size: 2rem;
+    margin-bottom: 10px;
 }
 
 h3 {
@@ -98,11 +100,14 @@ p {
     max-width: 300px;
     margin-left: 2rem;
     color: #2c3e50;
+    background-color: #b08968;
+    border-style:solid;
 }
 
 .legend h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 .legend-item {
@@ -112,9 +117,5 @@ p {
 }
 
 .legend-item img {
-    margin-right: 0.5rem;
-}
-
-.filtered-icon {
-    filter: hue-rotate(190deg) saturate(1.5);
+    margin-right: .5rem;
 }
